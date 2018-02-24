@@ -82,6 +82,31 @@ textarea{
 
 }
 
+.padding {
+     margin: 20px 0;
+}
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.image-title {
+    align-self: flex-end;
+    width: 100%;
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.space {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.space > img {
+    width: 100%;
+}
+
 .space {
    margin-bottom: 30px;
 }
